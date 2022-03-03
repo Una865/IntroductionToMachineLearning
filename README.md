@@ -6,4 +6,4 @@ Throughout this course there are lab excercises and homeworks that can be done i
 
 I also hope to come back some day when I become more advanced to have a look back on my progress at the beginning and where it led me to.
 
-To the future myself and everyone else here, good luck wiht learning and remember to always have fun!
+I hope tha my future self would be proud on the fact that I was consistent with learning this very growing field.
