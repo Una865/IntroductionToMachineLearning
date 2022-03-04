@@ -1,0 +1,4 @@
+When using raw data accuracy is:  0.9425000000000001
+When using col_average accuracy is:  0.6116666666666666
+When using row_average accuracy is:  0.9291666666666666
+When using top-bottom accuracy is:  0.5387500000000001
