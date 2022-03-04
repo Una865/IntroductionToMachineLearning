@@ -15,4 +15,4 @@ I computed three combinations:
 - 3 vs 6
 - 8 vs 9
 
-Evaluations of accuracies of each run are in the files results0vs1.txt, results3vs6.txt and results8vs9.txt.
+Evaluations of accuracies of each run are in the files results0vs1.txt, results3vs6.txt and results8vs9.txt. Looking at the results, everytime using raw data resulted in much better accuracy.
