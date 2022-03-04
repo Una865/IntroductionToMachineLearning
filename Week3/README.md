@@ -21,3 +21,5 @@ It is any measured value within a specific range. Examples of continious data ar
 - the temperature of a room
 - the car speed
 - the height of children
+
+NOTE: FeatureEngineeringCar and fashionMNIST are my experimenting and the rest are implementations of homework.
