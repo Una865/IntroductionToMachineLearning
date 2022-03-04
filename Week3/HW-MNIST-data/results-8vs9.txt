@@ -1,3 +1,0 @@
-When using raw data accuracy is:  0.7987500000000001
-When using col_average accuracy is:  0.49083333333333334
-When using row_average accuracy is:  0.5033333333333333
