@@ -7,3 +7,5 @@ Throughout this course there are lab excercises and homeworks that can be done i
 I also hope to come back some day when I become more advanced to have a look back on my progress at the beginning and where it led me to.
 
 I hope tha my future self would be proud on the fact that I was consistent with learning this very growing field.
+
+NOTE: There are not only homeworks fone in the folders. When learning new algorithm I like to play with different data types, therefore I sometimes try something not included in the course which I will also post here :)
