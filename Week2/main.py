@@ -114,3 +114,4 @@ def xval_learning_alg(learner,data,labels,k):
         score+= eval_classfier(learner,data_train,labels_train,data_test,labels_test)
 
     return score/k
+# end of evaluation of linear classifier
