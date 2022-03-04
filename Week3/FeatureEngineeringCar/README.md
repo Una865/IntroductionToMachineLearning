@@ -1,4 +1,3 @@
-#Lab excercise
+## Experiment
 
-Before jumping to the homework and additional materials they provide, I tried to build a linear classifier by myself.
-
+This was my experimental linear classifier which I've done before jumping into homework.
