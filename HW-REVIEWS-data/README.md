@@ -20,4 +20,5 @@ The feature vectors for these two sentences would then be:
 The feature vectors do not have to strictly have 1 or 0. Sometimes we can use feature vectors with numbers indicating frequency of the word in data sample. 
 
 The main feature of Bag-of-Words model is that it does not perserve order.
-HAsh trick is used to directly map words into numbers an
+
+
