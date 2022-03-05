@@ -13,7 +13,7 @@ Discrete values can be reffered to as "the number of". They take specific counta
 ### Encoding strategies for discrete features
 Important strategy for procesing data in this homework:
 - one hot encoding: when there is no ordering structure it is good to use a vector of length d(number of discrete values it can take) where all values are zero except for the one specific value which is one. One example of this strategy is dealing with colours. If there are 5 colours that occur, you will have vectors of length 5. The 1 will indicate the colour of that data sample, while all other values in the vector would be 0.
-- standarization
+- standarization: resaling data to have a mean 0 and a standard deviation of 1, useful link: https://sebastianraschka.com/Articles/2014_about_feature_scaling.html
 
 
 ## Continous Data
