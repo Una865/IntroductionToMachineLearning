@@ -11,7 +11,7 @@ Important topics:
 
 Codes:
 - Homework code: here are the codes from the homewrok section, some of it are mine and some are theirs as they provided it or their version was shorter so I decided to use it
--Fish project code
+-Fish project code: There are two versions of this project. In fish.py I used the codes from the homework an built the SupportVectorMachine model from scratch, while in fish2.py I used scikit-learn (documentation: https://scikit-learn.org/stable/modules/svm.html).
 
 
 ### Sigmoid funcion
@@ -46,3 +46,4 @@ It is like lazy version of gradient descent algorithm. Insetad of calculating gr
 
 ### Support Vector Machine
 It is a linear classifier which tries to maximize the margin (distance between hyperplane and closest data points of each class).
+![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week4/SVM.jpeg)
