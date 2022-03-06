@@ -11,7 +11,7 @@ Important topics:
 
 Codes:
 - Homework code: here are the codes from the homewrok section, some of it are mine and some are theirs as they provided it or their version was shorter so I decided to use it
--Fish project code: There are two versions of this project. In fish.py I used the codes from the homework an built the SupportVectorMachine model from scratch, while in fish2.py I used scikit-learn (documentation: https://scikit-learn.org/stable/modules/svm.html).
+- Fish project code: There are two versions of this project. In fish.py I used the codes from the homework an built the SupportVectorMachine model from scratch, while in fish2.py I used scikit-learn (documentation: https://scikit-learn.org/stable/modules/svm.html).
 
 
 ### Sigmoid funcion
