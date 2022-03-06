@@ -45,5 +45,7 @@ The goal is to find the minimum of loss function. Why gradient? Well, remember, 
 It is like lazy version of gradient descent algorithm. Insetad of calculating gradients of all data points, averaging it and taking that one big(ish) step, in Stochastic Gradient you chose one data point randomly, compute the graidient as if there were only that point and taking one small step.
 
 ### Support Vector Machine
+
 It is a linear classifier which tries to maximize the margin (distance between hyperplane and closest data points of each class).
+
 ![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week4/SVM.jpeg)
