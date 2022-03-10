@@ -32,5 +32,8 @@ My medium post: https://medium.com/@unajacimovic/understanding-how-backpropagati
 Good general purpose strategy is to choose each weight from a Gaussian normal distribution with mean 0 and standard deviation 1/m where m is the number of inputs. Many activation have zero slope when values are very big so we want to keep first values of weights small.
 
 ## Optimizing neural network parameters 
+- momentum gradient descent
+- addelta algorithm
+- adam algorithm
 
 
