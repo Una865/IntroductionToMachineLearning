@@ -32,8 +32,15 @@ My medium post: https://medium.com/@unajacimovic/understanding-how-backpropagati
 Good general purpose strategy is to choose each weight from a Gaussian normal distribution with mean 0 and standard deviation 1/m where m is the number of inputs. Many activation have zero slope when values are very big so we want to keep first values of weights small.
 
 ## Optimizing neural network parameters 
-- momentum gradient descent
+- momentum gradient descent very useful link: https://distill.pub/2017/momentum/
 - addelta algorithm
 - adam algorithm
+
+## Regularization
+- early stopping: basic idea is to have samples of data for validation on whoch you compute the loss function after every epoch and if it starts to systematicaly increase, stop your algorithm ad return weights with the lowest cost function
+- weight decay: penalizing norm of weights
+- adding noise: before each gradient is computed add a small zero-mean normally distributed noise 
+- dropout: for deep neural newtorks, prohibiting some units in one forward pass so the network won't rely on this small set of units. This is done by multiplying every activation layer with vector of zeros and ones (not to change activation layers).
+- batch normalization: 
 
 
