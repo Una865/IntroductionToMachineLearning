@@ -8,4 +8,4 @@ I also hope to come back some day when I become more advanced to have a look bac
 
 I hope tha my future self would be proud on the fact that I was consistent with learning this very growing field.
 
-NOTE: There are not only homeworks in the folders. When learning new algorithm I like to play with different data types, therefore I've done small project every week, which are not included in the course which I will also post here :)
+NOTE: There are not only homeworks in the folders. When learning new algorithm I like to play with different data types, therefore I've done small projects every week, which are not included in the course which I will also post here :)
