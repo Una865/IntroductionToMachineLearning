@@ -1,4 +1,4 @@
-## Convolutional Neufal networks-CNNs
+## Convolutional Neural networks-CNNs
 
 - filters
 -  max pooling 
