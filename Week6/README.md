@@ -43,4 +43,4 @@ Good general purpose strategy is to choose each weight from a Gaussian normal di
 - dropout: for deep neural newtorks, prohibiting some units in one forward pass so the network won't rely on this small set of units. This is done by multiplying every activation layer with vector of zeros and ones (not to change activation layers).
 - batch normalization: addresing internal covariate shift ( the change in distribution of inpurs to subsequent layers  ). This is done by stahdardizing input values for each mini-batch in order for the scale of the inputs to be the same no matter how weights in the previous layer change. 
 
-
+You can see in the scripts that i played with different optimization algorithms by using neural network built from scratch :)
