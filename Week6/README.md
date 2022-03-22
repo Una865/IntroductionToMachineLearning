@@ -37,10 +37,10 @@ Good general purpose strategy is to choose each weight from a Gaussian normal di
 - adam algorithm
 
 ## Regularization
-- early stopping: basic idea is to have samples of data for validation on whoch you compute the loss function after every epoch and if it starts to systematicaly increase, stop your algorithm ad return weights with the lowest cost function
+- early stopping: basic idea is to have samples of data for validation on whkch you compute the loss function after every epoch and if it starts to systematicaly increase, stop your algorithm ad return weights with the lowest cost function
 - weight decay: penalizing norm of weights
 - adding noise: before each gradient is computed add a small zero-mean normally distributed noise 
 - dropout: for deep neural newtorks, prohibiting some units in one forward pass so the network won't rely on this small set of units. This is done by multiplying every activation layer with vector of zeros and ones (not to change activation layers).
-- batch normalization: 
+- batch normalization: addresing internal covariate shift ( the change in distribution of inpurs to subsequent layers  ). This is done by stahdardizing input values for each mini-batch in order for the scale of the inputs to be the same no matter how weights in the previous layer change. 
 
 
