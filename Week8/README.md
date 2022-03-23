@@ -6,3 +6,5 @@
 
 These networks are very useful in computer vision. For example, when detecting the object in the picture, we need to classify it correctly no matter where it is on the picture. This is quite hard with vanilla neural networks. 
 
+Scripts:
+images.py: very simple object counter. Uses a filter that detects all left-edges in 1d array
