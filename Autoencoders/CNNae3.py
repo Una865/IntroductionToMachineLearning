@@ -30,7 +30,7 @@ def encoder(input_img):
     conv2 = BatchNormalization()(conv2)
     conv3 = MaxPooling2D((2,2))(conv2)
     conv4 = Flatten()(conv3)
-    conv4 = Dense(100)(conv4)
+    conv4 = Dense(300)(conv4)
     return conv4
 
 def decoder(encode):
@@ -77,7 +77,32 @@ train_X,valid_X,train_ground,valid_ground = train_test_split(x_train,
                                                              random_state=13)
 
 autoencoder_train = autoencoder.fit(train_X, train_ground, batch_size=batch_size,epochs=epochs,verbose=1,validation_data=(valid_X, valid_ground))
-autoencoder.save_weights('autoencoder2.h5')
+autoencoder.save_weights('autoencoder3.h5')
+
+'''
+
+Epoch 1/10
+625/625 [==============================] - 357s 569ms/step - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0065 - val_mse: 0.0065
+Epoch 2/10
+625/625 [==============================] - 320s 511ms/step - loss: 0.0060 - mse: 0.0060 - val_loss: 0.0055 - val_mse: 0.0055
+Epoch 3/10
+625/625 [==============================] - 406s 649ms/step - loss: 0.0051 - mse: 0.0051 - val_loss: 0.0048 - val_mse: 0.0048
+Epoch 4/10
+625/625 [==============================] - 348s 557ms/step - loss: 0.0045 - mse: 0.0045 - val_loss: 0.0040 - val_mse: 0.0040
+Epoch 5/10
+625/625 [==============================] - 327s 522ms/step - loss: 0.0041 - mse: 0.0041 - val_loss: 0.0040 - val_mse: 0.0040
+Epoch 6/10
+625/625 [==============================] - 358s 573ms/step - loss: 0.0038 - mse: 0.0038 - val_loss: 0.0036 - val_mse: 0.0036
+Epoch 7/10
+625/625 [==============================] - 323s 517ms/step - loss: 0.0036 - mse: 0.0036 - val_loss: 0.0034 - val_mse: 0.0034
+Epoch 8/10
+625/625 [==============================] - 312s 499ms/step - loss: 0.0034 - mse: 0.0034 - val_loss: 0.0038 - val_mse: 0.0038
+Epoch 9/10
+625/625 [==============================] - 302s 484ms/step - loss: 0.0033 - mse: 0.0033 - val_loss: 0.0032 - val_mse: 0.0032
+Epoch 10/10
+625/625 [==============================] - 323s 517ms/step - loss: 0.0032 - mse: 0.0032 - val_loss: 0.0029 - val_mse: 0.0029
+
+'''
 
 
 
