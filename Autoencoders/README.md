@@ -9,7 +9,7 @@ This projects is my aim to experiment with different kinds of autoencoders and t
 
 100x1
 
-![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Autoencoders/CNNae3%20-%20(100X1)%20-%20reconstructed.png)
+![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Autoencoders/Screenshot%202022-03-26%20at%2009.05.50.png)
 
 
 300x1
