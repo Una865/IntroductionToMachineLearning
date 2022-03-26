@@ -30,4 +30,5 @@ For this part I tried 4 different sizes of the code layer, and the results are s
 
 
 2000x1
+
 ![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Autoencoders/ConvolutionalAE3%20-%202000x1.png)
