@@ -73,3 +73,22 @@ for i in range(5):
 for i in range(5):
     print(path[i], end = ',')
     print()
+    
+    
+'''
+Optimal function of state values:
+
+[[22.  24.4 22.  19.4 17.5]
+ [19.8 22.  19.8 17.8 16. ]
+ [17.8 19.8 17.8 16.  14.4]
+ [16.  17.8 16.  14.4 13. ]
+ [14.4 16.  14.4 13.  11.7]]
+
+Optimal policy:
+
+[['right'], ['down', 'right', 'left'], ['left'], ['left'], ['left']],
+[['up', 'right'], ['up'], ['up', 'left'], ['left'], ['left']],
+[['up', 'right'], ['up'], ['up', 'left'], ['up', 'left'], ['up', 'left']],
+[['up', 'right'], ['up'], ['up', 'left'], ['up', 'left'], ['up', 'left']],
+[['up', 'right'], ['up'], ['up', 'left'], ['up', 'left'], ['up', 'left']],
+'''
