@@ -15,7 +15,8 @@ for ep in range(episodes):
 
             dirs = [up_grid, down_grid, right_grid, left_grid]
 
-            prob_dirs = [0.25,0.25,0.25,0.25]
+            prob_actions = [0.25,0.25,0.25,0.25]
+            prob_dir = [1,1,1,1]
             v_state = 0
             if i == 0 and j == 1:
                 v_state = 10 + ghama*grid[4,1]
@@ -31,7 +32,7 @@ for ep in range(episodes):
                             reward = 0
                             v_state_next = dirs[d]
 
-                       v_state += prob_dirs[d]*(reward + ghama*v_state_next)
+                       v_state += prob_actions[d]*prob_dir[d]*(reward + ghama*v_state_next)
 
             grid[i,j] = v_state
 
