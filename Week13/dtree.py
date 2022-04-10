@@ -184,4 +184,4 @@ acc = 0
 for i in range(Y_pred.shape[0]):
    if Y_pred[i,0] == Y_test[i,0]:
       acc+=1
-print(acc/30)
+print(acc/Y_pred.shape[0])
