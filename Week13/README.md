@@ -36,7 +36,7 @@ Disadvantages of decision trees:
 
 Example of decision trees:
 
-![alt_txt](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/DTrees.png)
+![alt_txt](https://github.com/Una865/IntroductionToMachineLearning/tree/main/Week13)
 
 Using tree models is most appropriate where the individual input features are **meaningful measurements**. For example, using measurements done on some patient. Tree models are easily interpretable, which is import in medicine for example, for the doctors to understand decision that the algorithm proposed.
 
