@@ -62,7 +62,7 @@ Possible impurity functions:
 
 ![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Screenshot%202022-04-11%20at%2023.05.13.png)
 
-3.misclassification error:
+3. misclassification error:
 
 1 - max(over all probabilities)
 
