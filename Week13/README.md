@@ -60,7 +60,12 @@ Possible impurity functions:
 
 2. gini index
 
-![alt_text]()
+![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Screenshot%202022-04-11%20at%2023.05.13.png)
+
+Information gain is then calculated as:
+
+![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Screenshot%202022-04-11%20at%2023.11.41.png)
+where **Eparent** refers to the impurity of parent node and **Echild** is the average impurity of child nodes.
 Great video: https://www.youtube.com/watch?v=LDRbO9a6XPU
 
 
