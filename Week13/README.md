@@ -48,6 +48,13 @@ The way the algorithm works:
 - choose the split with the most information gain
 - if no split is made, make it a leaf node (otherwise it is called decision node)
 
+For calculating information gain we need impurity functions. There are few inmupirty function, but they all need to satisfy 3 conditions:
+1. achieve maximum at the unifrom distribution
+2. achieve zero when one of the probabilities equals to 1
+3. to be symetric with regard to their permutations
+
+Possible impurity functions:
+1. entropy function 
 Great video: https://www.youtube.com/watch?v=LDRbO9a6XPU
 
 
