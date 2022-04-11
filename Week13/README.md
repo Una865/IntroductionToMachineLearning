@@ -41,3 +41,13 @@ Example of decision trees:
 Using tree models is most appropriate where the individual input features are **meaningful measurements**. For example, using measurements done on some patient. Tree models are easily interpretable, which is import in medicine for example, for the doctors to understand decision that the algorithm proposed.
 
 ### In the dtree.py is implementation of decision tree from scratch.
+
+The way the algorithm works:
+- at every node iterate over all features and iterate over all unique values that feature can take 
+- use the current value as a separator for the question and split the data
+- choose the split with the most information gain
+- if no split is made, make it a leaf node (otherwise it is called decision node)
+
+Great video: https://www.youtube.com/watch?v=LDRbO9a6XPU
+
+
