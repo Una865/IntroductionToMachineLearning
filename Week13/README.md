@@ -55,6 +55,12 @@ For calculating information gain we need impurity functions. There are few inmup
 
 Possible impurity functions:
 1. entropy function 
+
+![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Screenshot%202022-04-11%20at%2023.02.09.png)
+
+2. gini index
+
+![alt_text]()
 Great video: https://www.youtube.com/watch?v=LDRbO9a6XPU
 
 
