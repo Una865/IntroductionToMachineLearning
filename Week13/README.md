@@ -71,6 +71,12 @@ Information gain is then calculated as:
 ![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Screenshot%202022-04-11%20at%2023.11.41.png)
 where **Eparent** refers to the impurity of parent node and **Echild** is the average impurity of child nodes.
 
+For the regression decision trees, everything is pretty much the same. Only this time, we calculate impurity by calculating variance;
+
+![alt_txt](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Screenshot%202022-04-11%20at%2023.38.59.png)
+
+and the prediction is calculated as the average value of the values in that node.
+
 Great video: https://www.youtube.com/watch?v=LDRbO9a6XPU
 
 
