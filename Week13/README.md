@@ -93,7 +93,7 @@ The distance metric functions needs to satisfy:
 
 ![alt_txt](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/DistanceMetricConditions.png)
 
-When predicting, we use tha class for which we have minimum distance. 
+The object is assigned to the class most common among its k nearest neighboors. In case of the regression, predicted value is the average over its k nearest neighboors. 
 
 
 
