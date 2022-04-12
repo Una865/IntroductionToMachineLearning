@@ -71,12 +71,29 @@ Information gain is then calculated as:
 ![alt_text](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Screenshot%202022-04-11%20at%2023.11.41.png)
 where **Eparent** refers to the impurity of parent node and **Echild** is the average impurity of child nodes.
 
-For the regression decision trees, everything is pretty much the same. Only this time, we calculate impurity by calculating variance;
+For the **regression decision trees**, everything is pretty much the same. Only this time, we calculate impurity by calculating variance;
 
 ![alt_txt](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Screenshot%202022-04-11%20at%2023.38.59.png)
 
 and the prediction is calculated as the average value of the values in that node.
 
-Great video: https://www.youtube.com/watch?v=LDRbO9a6XPU
+Great videos: https://www.youtube.com/watch?v=LDRbO9a6XPU
+
+#### Pruning
+Regularization is done through pruning. The idea in complexity cost pruning is to build a large tree, and then have a cost function that will calculate the overall error of the tree but also have an expression member that will penalize the number of subtrees (with a tuning parameter that deciedes how much of an importance is given to that member).
+
+## Bagging 
+It is one of the ensamble learning techniques where we have multiple individual models that are combined to produce optimal output. Bagging is used to reduce variance in a noisy data. A random sample of data is selected with replacement - data points can be used several times. Then you train the data on individual models and then use the average or majority in classification of predictions. **Random forest** is an extension of bagging algorithm as it also uses feature randomness and makes uncorrelated forest of decision trees.
+
+## Nearest Neighboor 
+
+Here, no processing of data is done, the algorithm remembers it. The only thin needed is distance metric. 
+
+The distance metric functions needs to satisfy:
+
+![alt_txt](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Conditions.png)
+
+When predicting, we use tha class for which we have minimum distance. 
+
 
 
