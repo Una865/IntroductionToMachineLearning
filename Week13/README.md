@@ -91,7 +91,7 @@ Here, no processing of data is done, the algorithm remembers it. The only thin n
 
 The distance metric functions needs to satisfy:
 
-![alt_txt](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/Conditions.png)
+![alt_txt](https://github.com/Una865/IntroductionToMachineLearning/blob/main/Week13/DistanceMetricConditions.png)
 
 When predicting, we use tha class for which we have minimum distance. 
 
