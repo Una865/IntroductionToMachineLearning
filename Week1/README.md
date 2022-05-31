@@ -18,6 +18,6 @@ Most common machine learning tasks:
 11. *Denisty estimation or probability mass function*: the algorithm needs to learn the structure of the probabilitu distribution
 
 Kind of machine learning algorithms:
-1. Unsupervised learning: given a dataset we want to find patterns or structure inherent in it. In other words, we want to learn the probability distribution that generated the dataset
-2. Supervised learning: each example of dataset has its label or target  
-3. Reinforcement learning: here we do not experience the fixed dataset. There is no training set a priori. The problem is framed as agent interacting with the environment 
+1.*Unsupervised learning:* given a dataset we want to find patterns or structure inherent in it. In other words, we want to learn the probability distribution that generated the dataset
+2.*Supervised learning*: each example of dataset has its label or target  
+3.*Reinforcement learning*: here we do not experience the fixed dataset. There is no training set a priori. The problem is framed as agent interacting with the environment 
