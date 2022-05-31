@@ -12,12 +12,12 @@ Most common machine learning tasks:
 5. *Machine translation*:convert sequence of input into another sequence (commonly applied to languages)
 6. *Structures output*: any task where output is the vector with important relationships between the different elements (Example: image segmentation). 
 7. *Anomaly detetction:* flag some object as normal/anomal (Example: fraud detection. If someone steals your card their purchaces will probably be from different distrubution than yours)
-8. 8.*Synthesis and sampling*: generating new examples that are similar to those in the training data. For example, geneating textures of large objects or spoken version of sentences.
+8. *Synthesis and sampling*: generating new examples that are similar to those in the training data. For example, geneating textures of large objects or spoken version of sentences.
 9. *Imputation of missing values*: predicting missing values of x
 10. *Denosiing*: Input is corrupted image from example and the goal is to get the original image
 11. *Denisty estimation or probability mass function*: the algorithm needs to learn the structure of the probabilitu distribution
 
 Kind of machine learning algorithms:
-1.*Unsupervised learning:* given a dataset we want to find patterns or structure inherent in it. In other words, we want to learn the probability distribution that generated the dataset
-2.*Supervised learning*: each example of dataset has its label or target  
-3.*Reinforcement learning*: here we do not experience the fixed dataset. There is no training set a priori. The problem is framed as agent interacting with the environment 
+1. *Unsupervised learning:* given a dataset we want to find patterns or structure inherent in it. In other words, we want to learn the probability distribution that generated the dataset
+2. *Supervised learning*: each example of dataset has its label or target  
+3. *Reinforcement learning*: here we do not experience the fixed dataset. There is no training set a priori. The problem is framed as agent interacting with the environment 
