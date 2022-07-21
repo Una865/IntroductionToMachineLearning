@@ -13,3 +13,6 @@ Markov decision process is a variation on a state machine in which the transitio
 **Markov process** : is defined by the probabilities of transition function 
 
 The policy function is a function which assing probabilistic distribution among the set of actions to the state S. The role of the rewards is to implicitly define the goal of the agent. They should be set as to when the agent wants to maximize the reward, in the same tame he is doing the desired work. The often mistake is to set rewards for agent on how to do something, instead of what to do. 
+
+**Recurrent neural newtorks
+ RNNs are constructed with an idea to model dependencies between instances. In this tasks it is usuallu unknown how manu of previous instances are influencing the next element. 
